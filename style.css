@@ -11,7 +11,7 @@ body {
     height: auto;
     min-height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 nav {
@@ -124,7 +124,7 @@ nav ul li a:hover::after{
 
 
 #page1 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #111;
     display: flex;
@@ -358,7 +358,7 @@ nav ul li a:hover::after{
 
 
 #page3 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #111;
     position: relative;
