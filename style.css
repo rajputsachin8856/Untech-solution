@@ -33,6 +33,7 @@ body {
     color: transparent;
     background: linear-gradient(to right,rgb(0, 255, 170),rgb(30, 255, 0));
     -webkit-background-clip: text;
+    background-clip: text;
     position: absolute;
     opacity: 0;
     animation-name: load;
