@@ -1,3 +1,10 @@
+function loaderAnimation() {
+    var loader = document.querySelector("#loader")
+    setTimeout(function () {
+        loader.style.top = "-100%"
+    }, 4200)
+}
+
 function locomotiveAnimation() {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -182,6 +189,9 @@ function page6Animations() {
         }
     })
 }
+
+
+loaderAnimation()
 
 locomotiveAnimation()
 
